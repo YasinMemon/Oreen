@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: orange; */
+}
+body{
+    background-color: orange;
+}
+.box{
+    display: flex;
+    margin: 10%;
+    box-shadow: black;
+}
+.leftSide{
+    width: 60%;
+    text-align: center;
+    gap: 60%;
+    border: 1px solid black;
+    border-right: none;
+    text-align: center;
+    background-color: white;
+}
+
+.cirle{
+    height: 30%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: orange;
+
+}
+.flex{
+    display: flex;
+}
+.rightSide{
+    background: green;
+    width: 80%;
+    height: 80%;
+    padding-top: 20%;
+    padding-left: 10%;
+    color: white;
+    display: flex;
+    border: 1px solid black;
+}
+.line{
+    height: full;
+    background-color: orange;
+    width: 2px;
+}
+.paragraph{
+    padding-top: 10%;
+}
+.headphones{
+    width: 60%;
+    height: 40%;
+    border-radius: 50%;
+}
+@media screen and (min-width: 320px) {
+    .cirle{
+        width: 25%;
+        height: 20%;
+    }
+    .rightSide{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-right: 10%;
+        padding-bottom: 5%;
+    }
+    .headphones{
+        width: 90%;
+        height: 100%;
+    }
+    .leftSide h1{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .rightSide{
+        display: flex;
+        flex-direction: row;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .cirle{
+        width: 10%;
+    }
+    .box{
+        gap: 1px;
+    }
+    .headphones{
+        width: 100%;
+    }
+    .leftSide{
+        width: 10%;
+        height: full;
+        margin-top: 0%;
+        gap: 45px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+.box2{
+    margin: 0 10%;
+    display: flex;
+}
+.leftSide2{
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 35%;
+    justify-content: baseline;
+    height: 500px;
+    width: 20%;
+    padding-left: 2%;
+    background-color: white;
+    text-align: center;
+}
+.rightSide2{
+    height: 500px;
+    background-color: white;
+    border-left: 2px solid black;
+    width: 65%;
+    display: flex;
+}
+.leftTop{
+    display: flex;
+    flex-direction: column;
+}
+.leftBottom{
+    display: flex;
+    flex-direction: column;
+}
+.car{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    transition: 0.6s;
+}
+.car:hover{
+    transform: scale(1.1);
+}
+.cars{
+    padding-top: 10%;
+    margin-left: 5%;
+}
+.portfolio{
+    padding-top: 10%;
+    margin-left: 2%;
+}
+.last{
+    height: 500px;
+    width: 15%;
+    background-color: green;
+}
+.hamberger .ham1{
+    width: 10px;
+    height: 3px;
+    background-color: orange;
+}
+.info{
+    margin-top: 40%;
+    width: 200px;
+}
+.name{
+    font-weight: bold;
+}
+.cars3{
+    width: 65%;
+    background-color: white;
+    height: 500px;
+    border-left: 2px solid black;
+}
+.carimages{
+    height: 500px;
+    background-color: aqua;
+}
+.tower{
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+}
+.sumoImages{
+    width: 80%;
+    background-color: white;
+    height: 500px;
+    display: flex;
+    gap: 5%;
+    background-color: aqua;
+}
+.eggs{
+    padding: 12% 0;
+
+}
+.egg{
+    height: 120px;
+    margin-top: 6%;
+}
+.egg2{
+    height: 120px;
+}
+.leftSide4{
+    width: 35%;
+    background-color: aqua;
+    height: 500px;
+    margin-bottom: 10%;
+    position: absolute;
+}
+.lining{
+    position: relative;
+    background-color: white;
+    height: 100%;
+    width: 3px;
+    left: 80%;
+}
